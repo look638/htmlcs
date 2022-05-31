@@ -22,4 +22,18 @@ body {
     margin: 0;
     font-style: italic;
     font-weight: bold;
+    text-decoration: none; /*underline-подчеркнутый текст  line-trough-зачеркнутый текст*/
+    text-transform: none; /* uppercase-большие буквы capitalize-каждое слово с большой буквы*/
+    /*letter-spacing: none;*/ /*letter-spacing-пробелы между буквами в пикселях*/
+    /*word-spacing: 4px; -пробелы в пикселях между словами*/
+}
+
+.container {
+    max-width: 900px; /* 75%, 50% */
+    margin: auto;
+
+}
+
+.social {
+
 }

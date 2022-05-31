@@ -5,101 +5,108 @@
     <meta charset="utf-8" />
     <!-- title название сайта -->
     <title>Сайт 1</title>
-    <link href="StyleSheet1.css" rel="stylesheet"/>
+    <link href="Stylesheet1.css" rel="stylesheet"/>
 </head>
 <body>
-    <!-- mdn-для атрибутов -->
-    <!-- img-для изображений alt-пометка для поиска, если изображение не отображается-->
-    <table cellspacing="20">
-        <tr>
-            <td><img src="https://traveltimes.ru/wp-content/uploads/2021/05/86a21cadc98d303d85687.jpg" width="640" sizes="360" alt="аргентина" /></td>
-            <td>Аргентина</td>
-        </tr>
-    </table>
+    <div class="container">
+        <!-- mdn-для атрибутов -->
+        <!-- img-для изображений alt-пометка для поиска, если изображение не отображается-->
+        <table cellspacing="20">
+            <tr>
+                <td><img src="https://traveltimes.ru/wp-content/uploads/2021/05/86a21cadc98d303d85687.jpg" width="640" sizes="360" alt="аргентина" /></td>
+                <td>Аргентина</td>
+            </tr>
+        </table>
 
-    <img src="ледяной дождь.jpg" class="ld" /> <!--width="400"-->
-    <!-- h1-h6 размер текста -->
-    <h1>Hello World</h1>
-    <!-- hr горизонтальная линия -->
-    <!-- width-ширина лин в пикселях size-толщина лин в пикселях aligh-выравнивание лин-->
-    <hr size="10" noshade width="1000" color="green" />
-    <!-- <em> курсив  <strong> жирный текст -->
-    <h2><em>Саша</em></h2>
-    <h2>Саша</h2>
-    <p><strong>Саша</strong></p>
-    <p>Саша</p>
-    <!-- <br /> следующицй текст этого тега будет начинаться с новой строки  -->
-    <!-- <p> параграф -->
+        <img src="ледяной дождь.jpg" class="ld" /> <!--width="400"-->
+        <!-- h1-h6 размер текста -->
+        <h1>Hello World</h1>
+        <!-- hr горизонтальная линия -->
+        <!-- width-ширина лин в пикселях size-толщина лин в пикселях aligh-выравнивание лин-->
+        <hr size="10" noshade width="1000" color="green" />
+        <!-- <em> курсив  <strong> жирный текст -->
+        <h2><em>Саша</em></h2>
+        <h2>Саша</h2>
+        <p><strong>Саша</strong></p>
+        <p>Саша</p>
+        <!-- <br /> следующицй текст этого тега будет начинаться с новой строки  -->
+        <!-- <p> параграф -->
 
-    <br />
+        <br />
 
-    <div class="info">
-        <img src="https://avatars.mds.yandex.net/get-zen_doc/40456/pub_5ba2135342ef5c00af0d9d30_5ba219c8a679a400aac65745/scale_1200" width="200" />
-        <p><strong>CSS</strong> используется создателями веб-страниц для задания цветов, шрифтов, стилей,
-        расположения отдельных блоков и других аспектов представления внешнего вида этих веб-страниц. </p>
-        <p>Основной целью разработки <strong>CSS</strong> является ограждение и отделение описания логической структуры веб-страницы...</p>
+        <div class="info">
+            <img src="https://avatars.mds.yandex.net/get-zen_doc/40456/pub_5ba2135342ef5c00af0d9d30_5ba219c8a679a400aac65745/scale_1200" width="200" />
+            <p>
+                <strong>CSS</strong> используется создателями веб-страниц для задания цветов, шрифтов, стилей,
+                расположения отдельных блоков и других аспектов представления внешнего вида этих веб-страниц.
+            </p>
+            <p>Основной целью разработки <strong>CSS</strong> является ограждение и отделение описания логической структуры веб-страницы...</p>
+        </div>
+        <hr />
+        <h3>Список с точками</h3>
+
+        <!--<ul> имеет 3 вида circle disc square-->
+        <!--<a></a>-для ссылок href="сама ссылка" target="blank"-открывает ссылку в след. вкладке-->
+
+        <div class="social">
+            <ul type="disc">
+                <li>
+                    <a href="https://www.youtube.com"
+                       target="blank">Ютуб</a>
+                </li>
+                <li><a href="https://store.steampowered.com">Стим</a></li>
+                <li>three</li>
+            </ul>
+        </div>
+        <h3>Список с цифрами</h3>
+        <ol>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ol>
+        <form action="/">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" placeholder="ввести" />
+
+            <br />
+
+            <label for="email">Ваш email</label>
+            <input type="email" id="email" placeholder="введите email" />
+
+            <br />
+
+            <label for="text"> Введите сообщение </label>
+            <textarea id="text" placeholder="введите сообщение"></textarea>
+
+            <input type="submit" value="Послать" />
+
+        </form>
+
+        <table border="1">
+            <tr>
+                <th>Компания</th>
+                <th>должность</th>
+                <th>продолжительность</th>
+            </tr>
+            <tr>
+                <td>НПК</td>
+                <td>Техник-электрик</td>
+                <td>3года 10 меяцев</td>
+            </tr>
+            <tr>
+                <td>Ботанический сад</td>
+                <td>производственная практика</td>
+                <td>1 месяц</td>
+            </tr>
+        </table>
+
+        <h2>Переход между страницами???</h2>
+        <a href="2страница.html">другая информация на след. странице</a>
+
+
+
+
     </div>
-    <hr />
-    <h3>Список с точками</h3>
-    <!--<ul> имеет 3 вида circle disc square-->
-    <!--<a></a>-для ссылок href="сама ссылка" target="blank"-открывает ссылку в след. вкладке-->
-    <ul type="disc">
-        <li>
-            <a href="https://www.youtube.com"
-               target="blank">Ютуб</a>
-        </li>
-        <li><a href="https://store.steampowered.com">Стим</a></li>
-        <li>three</li>
-    </ul>
-    <h3>Список с цифрами</h3>
-    <ol>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ol>
-    <form action="/">
-        <label for="name">Ваше имя</label>
-        <input type="text" id="name" placeholder="ввести" />
-
-        <br />
-
-        <label for="email">Ваш email</label>
-        <input type="email" id="email" placeholder="введите email" />
-
-        <br />
-
-        <label for="text"> Введите сообщение </label>
-        <textarea id="text" placeholder="введите сообщение"></textarea>
-
-        <input type="submit" value="Послать" />
-
-    </form>
-
-    <table border="1">
-        <tr>
-            <th>Компания</th>
-            <th>должность</th>
-            <th>продолжительность</th>
-        </tr>
-        <tr>
-            <td>НПК</td>
-            <td>Техник-электрик</td>
-            <td>3года 10 меяцев</td>
-        </tr>
-        <tr>
-            <td>Ботанический сад</td>
-            <td>производственная практика</td>
-            <td>1 месяц</td>
-        </tr>
-    </table>
-
-    <h2>Переход между страницами???</h2>
-    <a href="2страница.html">другая информация на след. странице</a>
-
-
-
-
-
 </body>
 </html>
 
