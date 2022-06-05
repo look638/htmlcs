@@ -11,12 +11,6 @@
     <div class="container">
         <!-- mdn-для атрибутов -->
         <!-- img-для изображений alt-пометка для поиска, если изображение не отображается-->
-        <table cellspacing="20">
-            <tr>
-                <td><img src="https://traveltimes.ru/wp-content/uploads/2021/05/86a21cadc98d303d85687.jpg" width="640" sizes="360" alt="аргентина" /></td>
-                <td>Аргентина</td>
-            </tr>
-        </table>
 
         <img src="ледяной дождь.jpg" class="ld" /> <!--width="400"-->
         <!-- h1-h6 размер текста -->
@@ -34,21 +28,24 @@
 
         <br />
 
-        <div class="info">
-            <img src="https://avatars.mds.yandex.net/get-zen_doc/40456/pub_5ba2135342ef5c00af0d9d30_5ba219c8a679a400aac65745/scale_1200" width="200" />
-            <p>
-                <strong>CSS</strong> используется создателями веб-страниц для задания цветов, шрифтов, стилей,
-                расположения отдельных блоков и других аспектов представления внешнего вида этих веб-страниц.
-            </p>
-            <p>Основной целью разработки <strong>CSS</strong> является ограждение и отделение описания логической структуры веб-страницы...</p>
+        <div class="card bg-blue">
+            <div class="info">
+                <img src="https://avatars.mds.yandex.net/get-zen_doc/40456/pub_5ba2135342ef5c00af0d9d30_5ba219c8a679a400aac65745/scale_1200" width="200" />
+                <p>
+                    <strong>CSS</strong> используется создателями веб-страниц для задания цветов, шрифтов, стилей,
+                    расположения отдельных блоков и других аспектов представления внешнего вида этих веб-страниц.
+                </p>
+                <p>Основной целью разработки <strong>CSS</strong> является ограждение и отделение описания логической структуры веб-страницы...</p>
+            </div>
         </div>
         <hr />
-        <h3>Список с точками</h3>
+        <div class="card bg-yellow">
+            <h3>Список с точками</h3>
 
-        <!--<ul> имеет 3 вида circle disc square-->
-        <!--<a></a>-для ссылок href="сама ссылка" target="blank"-открывает ссылку в след. вкладке-->
+            <!--<ul> имеет 3 вида circle disc square-->
+            <!--<a></a>-для ссылок href="сама ссылка" target="blank"-открывает ссылку в след. вкладке-->
 
-        <div class="social">
+
             <ul type="disc">
                 <li>
                     <a href="https://www.youtube.com"
@@ -58,12 +55,34 @@
                 <li>three</li>
             </ul>
         </div>
-        <h3>Список с цифрами</h3>
-        <ol>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-        </ol>
+        <div class="card bg-green">
+            <h3>Список с цифрами</h3>
+            <ol class="list">
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ol>
+        </div> 
+        
+        <div class="card bg-red">
+            <table border="1">
+                <tr>
+                    <th>Компания</th>
+                    <th>должность</th>
+                    <th>продолжительность</th>
+                </tr>
+                <tr>
+                    <td>НПК</td>
+                    <td>Техник-электрик</td>
+                    <td>3года 10 меяцев</td>
+                </tr>
+                <tr>
+                    <td>Ботанический сад</td>
+                    <td>производственная практика</td>
+                    <td>1 месяц</td>
+                </tr>
+            </table>
+        </div>
         <form action="/">
             <label for="name">Ваше имя</label>
             <input type="text" id="name" placeholder="ввести" />
@@ -82,31 +101,17 @@
 
         </form>
 
-        <table border="1">
-            <tr>
-                <th>Компания</th>
-                <th>должность</th>
-                <th>продолжительность</th>
-            </tr>
-            <tr>
-                <td>НПК</td>
-                <td>Техник-электрик</td>
-                <td>3года 10 меяцев</td>
-            </tr>
-            <tr>
-                <td>Ботанический сад</td>
-                <td>производственная практика</td>
-                <td>1 месяц</td>
-            </tr>
-        </table>
 
-        <h3>Переход между страницами???</h3>
-        <a href="2страница.html">другая информация на след. странице</a>
-
+        <h3>Переход между страницами</h3>
+        <div class="twostr">
+            <a href="2страница.html"> 2 страница</a>
+        </div>
 
 
 
     </div>
+
+    <div style="margin-bottom: 700px;"> </div>
 </body>
 </html>
 

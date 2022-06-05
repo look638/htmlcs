@@ -15,6 +15,24 @@
 
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
 .info p {
     color: #86898f;
     margin: 0;
@@ -33,5 +51,48 @@
 }
 
 .social {
-
+    background: Aquamarine; /*# 7FFFD4 */
+    border-radius: 16px;
+    padding: 15px;
+    /*border: 5px solid red;*/
+    /*border-bottom-style: dotted; пунктир нижней красной линии*/
+    /*border-top-width: 15px; ширина верхней красной линии*/
+    /*border-right-color: blue; цвет правой линии*/
+    margin: 20px; /*4px w 7px d 2px s 4px a */
 }
+
+.bg-blue {
+    background: #a7d4d0;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+
+.twostr {
+    max-width: 100px;
+    margin: auto;
+}
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid ;
+}
+
