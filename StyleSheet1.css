@@ -62,7 +62,7 @@ a:visited {
 }
 
 .bg-blue {
-    background: #a7d4d0;
+    background: #bde0ff;
 }
 
 .bg-yellow {
@@ -92,7 +92,12 @@ a:visited {
 }
 
 .list li {
+    color: #86898f;
     margin-bottom: 10px;
     border-bottom: 1px solid ;
+}
+
+.table {
+    width: 100%;
 }
 
