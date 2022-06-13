@@ -29,9 +29,14 @@ a:visited {
     color: purple;
 }
 
-.info {
+@media (max-width: 700px;) {
+    .info {
     margin-bottom: 20px;
+    }
 }
+
+
+
 
 .info p {
     color: #86898f;
@@ -132,4 +137,30 @@ a:visited {
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    color: #F5F5F5;
+    background: #808080;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 16px;
+}
+.btn:hover {
+    opacity: 0.9;
 }
